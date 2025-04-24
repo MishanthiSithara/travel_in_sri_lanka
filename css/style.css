@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
 
 :root{
-    --main-color: #9c09e5;
+    --main-color: #b247e7;
     --black: #222;
     --white: #fff;
     --light-black: #777;
@@ -13,7 +13,7 @@
 }
 
 *{
-    font-family: 'Poppins' sans-serif;
+    font-family: 'poppins' sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -40,6 +40,30 @@ section{
     padding: 5rem 10%;
 }
 
+
+
+.btn{
+    display: inline-block;
+background: var(--black);
+    margin-top: 1rem;
+color: var(--white);
+font-size: 1.7rem;
+padding: 1rem 3rem;
+cursor: pointer;
+}
+
+.btn:hover{
+    background: var(--main-color);
+}
+
+.heading-title{
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 6rem;
+    text-transform: uppercase;
+    color:var(--black) ;
+}
+
 .header{
     position: sticky;
     top: 0; left: 0; right: 0;
@@ -55,7 +79,7 @@ section{
 
 .header .logo{
     font-size: 2.5rem;
-    color: var(--black);
+    color: var(--light-black);
 }
 
 .header .navbar a{
@@ -75,9 +99,67 @@ color:var(--main-color);
     display: none;
 }
 
+.home{
+ padding: 0;   
+}
+
+.home .slide{
+    text-align: center;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover !important;
+    background-position: center !important;
+    min-height: 60rem;
+}
+
+.home .slide .content{
+width: 85rem;
+}
 
 
 
+.home .slide .content span{
+display: block;
+font-size: 3rem;
+color: var(--light-white);
+padding-bottom: 1rem;
+}
+
+.home .slide .content h3{
+font-size: 80px;
+color:var(--white);
+text-transform: uppercase;
+line-height: 1;
+text-shadow:var(--text-shadow);
+padding: 1rem 0;
+}
+
+.services .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+    gap: 2rem;
+}
+.services .box-container .box{
+padding: 3rem 2rem;
+text-align: center;
+background: var(--main-color);
+}
+
+.services .box-container .box:hover{
+background: var(--white);
+}
+
+.services .box-container .box img{
+    height: 7rem;
+}
+
+.services .box-container .box h3{
+    color:var(--black);
+    font-size: 1.7rem;
+    padding-top: 1rem;
+}
 
 
 
@@ -229,4 +311,9 @@ padding: 3rem 2rem;
     html{
         font-size: 50%;
     }
+
+.heading-title{
+    font-size: 3.5rem;
+}
+
     }
