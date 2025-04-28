@@ -4,6 +4,8 @@ let navbar = document.querySelector('.header .navbar');
 menu.onclick = () =>{
     menu.classList.toggle('fa-times');
     navbar.classList.toggle('active');
+
+    navbar.classList.toggle('d-none')
 };
 
 window.onscroll = () =>{
