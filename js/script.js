@@ -17,4 +17,12 @@ var swiper = new Swiper(".home-slider", {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
     },
+    
+    autoplay: {
+    delay: 4000, // 5000 milliseconds = 5 seconds
+    disableOnInteraction: false, // Keep autoplay even after user clicks
+  },
+
   });
+
+
