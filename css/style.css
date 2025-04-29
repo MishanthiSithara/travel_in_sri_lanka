@@ -101,17 +101,14 @@ cursor: pointer;
     color: var(--light-black);
 }
 
-.d-none{
-    display: none;
-}
 
-.header .navbar-d-none a{
+.header .navbar a{
 font-size: 2rem;
 margin-left: 2rem;
 color:var(--black);
 }
 
-.header .navbar-d-none a:hover{
+.header .navbar a:hover{
 color:var(--main-color);
 }
 
@@ -460,6 +457,10 @@ padding: 3rem 2rem;
 }
 
 @media (max-width:768px){
+
+    .d-none{
+        display: none;
+    }
 
     #menu-btn{
         display: inline-block;
