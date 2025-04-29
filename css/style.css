@@ -142,13 +142,13 @@ width: 85rem;
 
 .home .slide .content span{
 display: block;
-font-size: 2rem;
+font-size: 3rem;
 color: var(--light-white);
 padding-bottom: 1rem;
 }
 
 .home .slide .content h3{
-font-size: 80px;
+font-size: 75px;
 color:var(--white);
 text-transform: uppercase;
 line-height: 1;
