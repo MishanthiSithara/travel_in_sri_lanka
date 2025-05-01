@@ -644,4 +644,12 @@ padding: 3rem 2rem;
     font-size: 3.5rem;
 }
 
+.heading-about h1{
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    color: var(--white);
+    text-shadow: var(--text-shadow);
+}
+
     }
+}
