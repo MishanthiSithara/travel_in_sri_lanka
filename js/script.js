@@ -28,3 +28,22 @@ var swiper = new Swiper(".home-slider", {
   });
 
 
+var swiper = new swiper(".swiper reviews-slider",{
+loop:true,
+spaceBetween: 20,
+autoHeight:true,
+grabCursor:true,
+breakpoints: {
+  640: {
+    slidesPerView: 1,
+  },
+  768: {
+    slidePerView: 2,
+    
+  },
+  1024: {
+    slidePerView: 3,
+    
+  },
+  },
+});
