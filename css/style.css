@@ -556,6 +556,47 @@ display: block;
 
 
 
+/*our services starts*/
+
+.service-our .our_service{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+
+ .our_service h3{
+font-size: 6rem;
+}
+
+.service-our .our_service img{
+    width: 25rem;
+    height: 18.80rem;
+    
+    border-radius: 0.8rem;
+    box-shadow: 3px 7px 7px 4px var(--light-black);
+    cursor: pointer;
+    margin: 10px;
+    transition: 400ms;
+}
+
+.service-our .our_service img:hover{
+    
+    transform: scale(1.03);
+}
+
+
+/*our services ends*/
+
+
+
+
+
+
+
 
 
 
