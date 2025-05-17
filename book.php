@@ -22,16 +22,17 @@
   <body>
     <!--header section starts-->
     <section class="header">
-      <a href="home.html" class="logo">travelA+</a>
+      <a href="home.php" class="logo">travelA+</a>
       <nav class="navbar d-none">
-        <a href="home.html">home</a>
-        <a href="about.html">about</a>
-        <a href="our_services.html">our service</a>
-        <a href="package.html">package</a>
-        <a href="book.html">book</a>
-        <a href="gallery.html">gallery</a>
-        <a href="destination.html">destination</a>
-        <a href="login.html">login</a>
+        <a href="home.php">home</a>
+        <a href="about.php">about</a>
+        <a href="our_services.php">our service</a>
+        <a href="package.php">package</a>
+        <a href="book.php">book</a>
+        <a href="gallery.php">gallery</a>
+        <a href="destination.php">destination</a>
+        <a href="login.php">login</a>
+        <a href="register.php">register</a>
       </nav>
 
       <div id="menu-btn" class="fas fa-bars"></div>
@@ -51,7 +52,7 @@
     <section class="booking">
       <h1 class="heading-title">book your trip!</h1>
 
-      <form action="book_form.html" method="post" class="book-form">
+      <form action="book.php" method="post" class="book-form">
         <div class="flex">
           <div class="inputBox">
             <span>name :</span>

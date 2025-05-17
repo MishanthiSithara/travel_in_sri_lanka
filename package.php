@@ -22,16 +22,17 @@
   <body>
     <!--header section starts-->
     <section class="header">
-      <a href="home.html" class="logo">travelA+</a>
+      <a href="home.php" class="logo">travelA+</a>
       <nav class="navbar d-none">
-        <a href="home.html">home</a>
-        <a href="about.html">about</a>
-        <a href="our_services.html">our service</a>
-        <a href="package.html">package</a>
-        <a href="book.html">book</a>
-        <a href="gallery.html">gallery</a>
-        <a href="destination.html">destination</a>
-        <a href="login.html">login</a>
+        <a href="home.php">home</a>
+        <a href="about.php">about</a>
+        <a href="our_services.php">our service</a>
+        <a href="package.php">package</a>
+        <a href="book.php">book</a>
+        <a href="gallery.php">gallery</a>
+        <a href="destination.php">destination</a>
+        <a href="login.php">login</a>
+        <a href="register.php">register</a>
       </nav>
 
       <div id="menu-btn" class="fas fa-bars"></div>
@@ -56,7 +57,7 @@
           <div class="content">
             <h3>NuwaraEliya</h3>
             <p>This package offers the opportunity to visit more locations!</p>
-            <a href="book.html" class="btn">book now</a>
+            <a href="book.php" class="btn">book now</a>
           </div>
         </div>
 
@@ -67,7 +68,7 @@
           <div class="content">
             <h3>kandy</h3>
             <p>This package offers the opportunity to visit more locations!</p>
-            <a href="book.html" class="btn">book now</a>
+            <a href="book.php" class="btn">book now</a>
           </div>
         </div>
 
@@ -78,7 +79,7 @@
           <div class="content">
             <h3>badulla</h3>
             <p>This package offers the opportunity to visit more locations!</p>
-            <a href="book.html" class="btn">book now</a>
+            <a href="book.php" class="btn">book now</a>
           </div>
         </div>
 
@@ -89,7 +90,7 @@
           <div class="content">
             <h3>sigiriya</h3>
             <p>This package offers the opportunity to visit more locations!</p>
-            <a href="book.html" class="btn">book now</a>
+            <a href="book.php" class="btn">book now</a>
           </div>
         </div>
 
@@ -100,7 +101,7 @@
           <div class="content">
             <h3>Anuradhapura</h3>
             <p>This package offers the opportunity to visit more locations!</p>
-            <a href="book.html" class="btn">book now</a>
+            <a href="book.php" class="btn">book now</a>
           </div>
         </div>
 
@@ -111,7 +112,7 @@
           <div class="content">
             <h3>polonnaruwa</h3>
             <p>This package offers the opportunity to visit more locations!</p>
-            <a href="book.html" class="btn">book now</a>
+            <a href="book.php" class="btn">book now</a>
           </div>
         </div>
 
@@ -122,7 +123,7 @@
           <div class="content">
             <h3>colombo</h3>
             <p>This package offers the opportunity to visit more locations!</p>
-            <a href="book.html" class="btn">book now</a>
+            <a href="book.php" class="btn">book now</a>
           </div>
         </div>
 
@@ -133,7 +134,7 @@
           <div class="content">
             <h3>galle</h3>
             <p>This package offers the opportunity to visit more locations!</p>
-            <a href="book.html" class="btn">book now</a>
+            <a href="book.php" class="btn">book now</a>
           </div>
         </div>
 
@@ -144,7 +145,7 @@
           <div class="content">
             <h3>jaffna</h3>
             <p>This package offers the opportunity to visit more locations!</p>
-            <a href="book.html" class="btn">book now</a>
+            <a href="book.php" class="btn">book now</a>
           </div>
         </div>
 
@@ -155,7 +156,7 @@
           <div class="content">
             <h3>trincomali</h3>
             <p>This package offers the opportunity to visit more locations!</p>
-            <a href="book.html" class="btn">book now</a>
+            <a href="book.php" class="btn">book now</a>
           </div>
         </div>
 
@@ -166,7 +167,7 @@
           <div class="content">
             <h3>gampola</h3>
             <p>This package offers the opportunity to visit more locations!</p>
-            <a href="book.html" class="btn">book now</a>
+            <a href="book.php" class="btn">book now</a>
           </div>
         </div>
 
@@ -177,12 +178,12 @@
           <div class="content">
             <h3>batticaloa</h3>
             <p>This package offers the opportunity to visit more locations!</p>
-            <a href="book.html" class="btn">book now</a>
+            <a href="book.php" class="btn">book now</a>
           </div>
         </div>
       </div>
       <div class="load-more">
-        <a href="package.html" class="btn">load more</a>
+        <a href="package.php" class="btn">load more</a>
       </div>
     </section>
 

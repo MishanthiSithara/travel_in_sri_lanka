@@ -28,22 +28,38 @@ var swiper = new Swiper(".home-slider", {
   });
 
 
-var swiper = new swiper(".swiper reviews-slider",{
-loop:true,
-spaceBetween: 20,
-autoHeight:true,
-grabCursor:true,
-breakpoints: {
-  640: {
-    slidesPerView: 1,
-  },
-  768: {
-    slidePerView: 2,
+  var swiper = new Swiper(".reviews-slider", {
+    loop:true,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
     
+    autoplay: {
+    delay: 4000, // 5000 milliseconds = 5 seconds
+    disableOnInteraction: false, // Keep autoplay even after user clicks
   },
-  1024: {
-    slidePerView: 3,
+
+  });
+
+
+
+// var swiper = new swiper(".swiper reviews-slider",{
+// loop:true,
+// spaceBetween: 20,
+// autoHeight:true,
+// grabCursor:true,
+// breakpoints: {
+//   640: {
+//     slidesPerView: 1,
+//   },
+//   768: {
+//     slidePerView: 2,
     
-  },
-  },
-});
+//   },
+//   1024: {
+//     slidePerView: 3,
+    
+//   },
+//   },
+// });

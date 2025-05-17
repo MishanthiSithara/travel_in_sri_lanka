@@ -23,16 +23,18 @@
   <body>
     <!--header section starts-->
     <section class="header">
-      <a href="home.html" class="logo">travelA+</a>
+      <a href="home.php" class="logo">travelA+</a>
       <nav class="navbar d-none">
-        <a href="home.html">home</a>
-        <a href="about.html">about</a>
-        <a href="our_services.html">our service</a>
-        <a href="package.html">package</a>
-        <a href="book.html">book</a>
-        <a href="gallery.html">gallery</a>
-        <a href="destination.html">destination</a>
-        <a href="login.html">login</a>
+        <a href="home.php">home</a>
+        <a href="about.php">about</a>
+        <a href="our_services.php">our service</a>
+        <a href="package.php">package</a>
+        <a href="book.php">book</a>
+        <a href="gallery.php">gallery</a>
+        <a href="destination.php">destination</a>
+        <a href="login.php">login</a>
+        <a href="register.php">register</a>
+
       </nav>
 
       <div id="menu-btn" class="fas fa-bars"></div>
@@ -51,7 +53,7 @@
             <div class="content">
               <span>explore, discover, travel</span>
               <h3>travel in sri lanka</h3>
-              <a href="package.html" class="btn">discover more</a>
+              <a href="package.php" class="btn">discover more</a>
             </div>
           </div>
 
@@ -62,7 +64,7 @@
             <div class="content">
               <span>explore, discover, travel</span>
               <h3>discover the new places</h3>
-              <a href="package.html" class="btn">discover more</a>
+              <a href="package.php" class="btn">discover more</a>
             </div>
           </div>
 
@@ -73,7 +75,7 @@
             <div class="content">
               <span>explore, discover, travel</span>
               <h3>make your tour worthwhile</h3>
-              <a href="package.html" class="btn">discover more</a>
+              <a href="package.php" class="btn">discover more</a>
             </div>
           </div>
         </div>
@@ -133,7 +135,7 @@
           smooth, safe and enriching experience from booking to return. Let us
           help you explore the beauty, culture, and heart of Sri Lanka.
         </p>
-        <a href="about.html" class="btn">read more</a>
+        <a href="about.php" class="btn">read more</a>
       </div>
     </section>
     <!--home about section end-->
@@ -150,7 +152,7 @@
           <div class="content">
             <h3>NuwaraEliya</h3>
             <p>This package offers the opportunity to visit more locations!</p>
-            <a href="book.html" class="btn">book now</a>
+            <a href="book.php" class="btn">book now</a>
           </div>
         </div>
 
@@ -161,7 +163,7 @@
           <div class="content">
             <h3>kandy</h3>
             <p>This package offers the opportunity to visit more locations!</p>
-            <a href="book.html" class="btn">book now</a>
+            <a href="book.php" class="btn">book now</a>
           </div>
         </div>
 
@@ -172,7 +174,7 @@
           <div class="content">
             <h3>Badulla</h3>
             <p>This package offers the opportunity to visit more locations!</p>
-            <a href="book.html" class="btn">book now</a>
+            <a href="book.php" class="btn">book now</a>
           </div>
         </div>
 
@@ -183,13 +185,13 @@
           <div class="content">
             <h3>sigiriya</h3>
             <p>This package offers the opportunity to visit more locations!</p>
-            <a href="book.html" class="btn">book now</a>
+            <a href="book.php" class="btn">book now</a>
           </div>
         </div>
       </div>
 
       <div class="load-more">
-        <a href="package.html" class="btn">load more</a>
+        <a href="package.php" class="btn">load more</a>
       </div>
     </section>
 
@@ -207,7 +209,7 @@
           trip waiting for you. Book now and make unforgettable memories — for
           half the price!
         </p>
-        <a href="book.html" class="btn">book now</a>
+        <a href="book.php" class="btn">book now</a>
       </div>
     </section>
 
