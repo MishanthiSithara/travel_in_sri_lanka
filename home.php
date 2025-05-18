@@ -32,9 +32,8 @@
         <a href="book.php">book</a>
         <a href="gallery.php">gallery</a>
         <a href="destination.php">destination</a>
-        <a href="login.php">login</a>
-        <a href="register.php">register</a>
-
+        <a href="/admin/login.php">login</a>
+        <a href="/admin/register.php">register</a>
       </nav>
 
       <div id="menu-btn" class="fas fa-bars"></div>

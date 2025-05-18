@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
 
 :root{
-    --main-color: #b247e7;
+    --main-color: #ad43e1;
     --black: #222;
     --white: #fff;
     --light-black: #777;
@@ -63,7 +63,7 @@ section{
 
 .btn{
 display: inline-block;
-background: var(--blackblack);
+background: var(--black);
 margin-top: 1rem;
 color: var(--white);
 font-size: 1.7rem;
@@ -436,7 +436,7 @@ padding-bottom: 2rem;
 }
 
 .reviews .slide .stars i{
-     font-size: 1.7rem;
+     font-size: 1.5rem;
      color: var(--main-color);
 }
 
@@ -464,7 +464,13 @@ display: block;
     border-radius: 50%;
     margin-top: 1rem;
 }
+.swiper-button-next{
+    color: var(--main-color);
+}
 
+.swiper-button-prev{
+    color: var(--main-color);
+}
 
 
 /*about reviews section ends*/
@@ -719,9 +725,6 @@ h3 {
   }
 
 /*our destination section ends*/
-
-
-
 
 
 
