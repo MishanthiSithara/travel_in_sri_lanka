@@ -27,13 +27,15 @@
       <nav class="navbar d-none">
         <a href="home.php">home</a>
         <a href="about.php">about</a>
-        <a href="our_services.php">our service</a>
+        <a href="our_services.php">service</a>
         <a href="package.php">package</a>
         <a href="book.php">book</a>
         <a href="gallery.php">gallery</a>
         <a href="destination.php">destination</a>
-        <a href="/admin/login.php">login</a>
-        <a href="/admin/register.php">register</a>
+        <a href="./feedback/feedback.php">feedback</a>
+
+        <a href="./user/login.php">login</a>
+        <a href="./user/register.php">register</a>
       </nav>
 
       <div id="menu-btn" class="fas fa-bars"></div>

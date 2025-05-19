@@ -29,12 +29,47 @@ html{
 body {
     font-family: Arial, sans-serif;
     padding: 20px;
+    max-width: 600px;
+    margin: auto;
+    background: var(--white);
 }
+
+h2 {
+    color: var(--black);
+}
+
 form {
-    margin-bottom: 20px;
+    background: var(--white);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px var(--light-black);
 }
-input, textarea, button {
-    display: block;
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
     margin: 10px 0;
-    padding: 8px;
+    border: 1px solid var(--light-black);
+    border-radius: 5px;
+}
+
+button {
+    background: #6d1874;
+    color: var(--white);
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: var(--main-color);
+}
+
+.success {
+    color: green;
+}
+
+.error {
+    color: red;
 }
