@@ -32,10 +32,10 @@
         <a href="book.php">book</a>
         <a href="gallery.php">gallery</a>
         <a href="destination.php">destination</a>
-        <a href="./feedback/feedback.php">feedback</a>
+        <a href="feedback.php">feedback</a>
 
-        <a href="./user/login.php">login</a>
-        <a href="./user/register.php">register</a>
+        <a href="./login.php">login</a>
+        <a href="./register.php">register</a>
       </nav>
 
       <div id="menu-btn" class="fas fa-bars"></div>
@@ -246,7 +246,7 @@
         <div class="box">
           <h3>Extra links</h3>
           <a href="#"> <i class="fas fa-angle-right"></i>ask questions</a>
-          <a href="#"> <i class="fas fa-angle-right"></i>about us</a>
+          <a href="./about.php"> <i class="fas fa-angle-right"></i>about us</a>
           <a href="#"> <i class="fas fa-angle-right"></i>privacy policy</a>
           <a href="#"> <i class="fas fa-angle-right"></i>term of use</a>
         </div>
