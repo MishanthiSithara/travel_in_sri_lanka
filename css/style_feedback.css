@@ -23,23 +23,25 @@
     text-transform: capitalize;
 }
 
-html{
-    font-size: 70%;
-    overflow-x: hidden;
-}
+
 
 body {
- background-color: #69059b;
-  background-size: cover;
-  height: 100vh;
+ background-image: url('../image/login_regi.jpg');
+  
   display: flex;
   justify-content: center;
   align-items: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
 }
+
+
 
 /* Form container */
 .container {
-  background: rgba(219, 215, 220, 0.9);
+  background-color: var(--white);
   padding: 30px;
   border-radius: 10px;
   width: 90%;

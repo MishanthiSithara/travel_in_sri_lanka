@@ -222,6 +222,30 @@
       <img src="image/gallery/batticlo gate.jpg" alt="" />
       <img src="image/gallery/batticlo ligh house.jpg" alt="" />
       <img src="image/gallery/kallady beC.jpg" alt="" />
+      <img src="image/gallery/gal143.jpeg" alt="" />
+      <img src="image/gallery/gal144.jpeg" alt="" />
+      <img src="image/gallery/gal145.jpeg" alt="" />
+      <img src="image/gallery/gal146.jpeg" alt="" />
+      <img src="image/gallery/gal147.jpeg" alt="" />
+      <img src="image/gallery/gal148.jpeg" alt="" />
+      <img src="image/gallery/gal149.jpeg" alt="" />
+      <img src="image/gallery/gal150.jpeg" alt="" />
+      <img src="image/gallery/gal151.jpeg" alt="" />
+      <img src="image/gallery/gal152.jpeg" alt="" />
+      <img src="image/gallery/gal153.jpeg" alt="" />
+      <img src="image/gallery/gal154.jpeg" alt="" />
+      <img src="image/gallery/gal155.jpeg" alt="" />
+      <img src="image/gallery/gal156.jpeg" alt="" />
+      <img src="image/gallery/gal157.jpeg" alt="" />
+      <img src="image/gallery/gal158.jpeg" alt="" />
+      <img src="image/gallery/gal159.jpeg" alt="" />
+      <img src="image/gallery/gal160.jpeg" alt="" />
+      <img src="image/gallery/gal161.jpeg" alt="" />
+      <img src="image/gallery/gal162.jpeg" alt="" />
+      <img src="image/gallery/gal163.jpeg" alt="" />
+      <img src="image/gallery/gal164.jpeg" alt="" />
+      <img src="image/gallery/gal165.jpeg" alt="" />
+      <img src="image/gallery/gal166.jpeg" alt="" />
     </div>
 
     <!--gallery end-->

@@ -33,7 +33,6 @@
         <a href="gallery.php">gallery</a>
         <a href="destination.php">destination</a>
         <a href="feedback.php">feedback</a>
-
         <a href="./login.php">login</a>
         <a href="./register.php">register</a>
       </nav>

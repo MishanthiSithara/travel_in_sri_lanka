@@ -143,7 +143,7 @@
 
         <div class="box">
           <div class="images">
-            <img src="image/jaffna1.jpeg" alt="" />
+            <img src="./image/gallery/gal164.jpeg" alt="" />
           </div>
           <div class="content">
             <h3>jaffna</h3>
