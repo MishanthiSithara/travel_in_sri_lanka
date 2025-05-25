@@ -26,8 +26,8 @@
 
 
 body {
- background-image: url('../image/login_regi.jpg');
-  
+ background-image: url('../image/gallery/gal200.jpeg');
+  object-fit: cover;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -42,18 +42,34 @@ body {
 /* Form container */
 .container {
   background-color: var(--white);
-  padding: 30px;
-  border-radius: 10px;
+  padding: 2rem;
+  border-radius: 1rem;
   width: 90%;
   max-width: 400px;
-  box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+  box-shadow:0 .5rem 3rem rgba(0,0,0,.3);
+   background: transparent;
+  border: 1px solid rgb(17, 105, 23);
 }
 
 .feedback-form h2 {
   text-align: center;
-  margin-bottom: 20px;
-  color: #333;
+  margin-bottom: 2rem;
+  color: rgba(10, 4, 4, 0.591);
 }
+
+form button:hover {
+  background: var(--main-color);
+}
+
+
+.feedback-form a{
+  color: var(--main-color);
+  text-decoration: none;
+}
+form a:hover {
+  text-decoration: underline;
+}
+
 
 /* Input fields */
 .feedback-form input,
@@ -63,7 +79,7 @@ body {
   margin: 10px 0;
   border-radius: 6px;
   border: 1px solid var(--black);
-  font-size: 1.2rem;
+  font-size: 1rem;
   box-sizing: border-box;
 }
 
@@ -74,7 +90,7 @@ body {
   border: none;
   background-color: var(--black);
   color: white;
-  font-size: 1.4rem;
+  font-size: 1.1rem;
   border-radius: 6px;
   cursor: pointer;
   transition: background 0.3s ease;

@@ -54,24 +54,19 @@
     <h3>our Photo Gallery</h3>
 
     <div class="gallery">
-      <img src="image/gallery/gal1.jpeg" alt="" />
-      <img src="image/gallery/gal2.jpeg" alt="" />
-      <img src="image/gallery/gal3.jpeg" alt="" />
-
+      <img src="image/gallery/gal6.jpeg" alt="" />
       <img src="image/gallery/gal7.jpeg" alt="" />
       <img src="image/gallery/gal8.jpeg" alt="" />
-      <img src="image/gallery/gal14.jpeg" alt="" />
-      <img src="image/gallery/gal15.jpeg" alt="" />
-      <img src="image/gallery/gal16.jpeg" alt="" />
-      <img src="image/gallery/gal17.jpeg" alt="" />
-      <img src="image/gallery/gal18.jpeg" alt="" />
+      <img src="image/gallery/gal9.jpeg" alt="" />
+      <img src="image/gallery/gal10.jpeg" alt="" />
+      
       <img src="image/gallery/gal19.jpeg" alt="" />
       <img src="image/gallery/gal20.jpeg" alt="" />
       <img src="image/gallery/gal21.jpeg" alt="" />
       <img src="image/gallery/gal22.jpeg" alt="" />
-
+      <img src="image/gallery/gal23.jpeg" alt="" />
       <img src="image/gallery/gal24.jpeg" alt="" />
-
+      <img src="image/gallery/gal25.jpeg" alt="" />
       <img src="image/gallery/gal26.jpeg" alt="" />
       <img src="image/gallery/gal27.jpeg" alt="" />
       <img src="image/gallery/gal28.jpeg" alt="" />
@@ -97,7 +92,6 @@
       <img src="image/gallery/gal48.jpeg" alt="" />
       <img src="image/gallery/gal49.jpeg" alt="" />
       <img src="image/gallery/gal50.jpeg" alt="" />
-
       <img src="image/gallery/gal51.jpeg" alt="" />
       <img src="image/gallery/gal52.jpeg" alt="" />
       <img src="image/gallery/gal53.jpeg" alt="" />
@@ -117,20 +111,9 @@
       <img src="image/gallery/gal67.jpeg" alt="" />
       <img src="image/gallery/gal68.jpeg" alt="" />
       <img src="image/gallery/gal69.jpeg" alt="" />
-      <img src="image/gallery/gal70.jpeg" alt="" />
-      <img src="image/gallery/gal71.jpeg" alt="" />
-      <img src="image/gallery/gal72.jpeg" alt="" />
+     
       <img src="image/gallery/gal73.jpeg" alt="" />
       <img src="image/gallery/gal74.jpeg" alt="" />
-      <img src="image/gallery/gal4.jpeg" alt="" />
-      <img src="image/gallery/gal5.jpeg" alt="" />
-      <img src="image/gallery/gal6.jpeg" alt="" />
-      <img src="image/gallery/gal10.jpeg" alt="" />
-      <img src="image/gallery/gal11.jpeg" alt="" />
-      <img src="image/gallery/gal12.jpeg" alt="" />
-      <img src="image/gallery/gal12.jpeg" alt="" />
-      <img src="image/gallery/gal13.jpeg" alt="" />
-
       <img src="image/gallery/gal75.jpeg" alt="" />
       <img src="image/gallery/gal76.jpeg" alt="" />
       <img src="image/gallery/gal77.jpeg" alt="" />
@@ -143,11 +126,7 @@
       <img src="image/gallery/gal84.jpeg" alt="" />
       <img src="image/gallery/gal85.jpeg" alt="" />
       <img src="image/gallery/gal86.jpeg" alt="" />
-      <img src="image/gallery/gal87.jpeg" alt="" />
-      <img src="image/gallery/gal88.jpeg" alt="" />
-      <img src="image/gallery/gal89.jpeg" alt="" />
-      <img src="image/gallery/gal90.jpeg" alt="" />
-      <img src="image/gallery/gal91.jpeg" alt="" />
+      
       <img src="image/gallery/gal92.jpeg" alt="" />
       <img src="image/gallery/gal93.jpeg" alt="" />
       <img src="image/gallery/gal94.jpeg" alt="" />
@@ -197,31 +176,6 @@
       <img src="image/gallery/gal140.jpeg" alt="" />
       <img src="image/gallery/gal141.jpeg" alt="" />
       <img src="image/gallery/gal142.jpeg" alt="" />
-      <img src="image/gallery/nellikulama.jpeg" alt="" />
-      <img src="image/gallery/ranawana.jpeg" alt="" />
-      <img src="image/gallery/nadadeepa.jpeg" alt="" />
-      <img src="image/gallery/point pedro.jpeg" alt="" />
-      <img src="image/gallery/Moon-Plains-Sandathenna.jpg" alt="" />
-      <img src="image/gallery/keeramale.jpeg" alt="" />
-      <img src="image/gallery/delf .jpeg" alt="" />
-      <img src="image/gallery/fort hammenhil.jpeg" alt="" />
-      <img src="image/gallery/Nallur-Kandaswamy-Hindu-Temple.jpg" alt="" />
-      <img src="image/gallery/navy meusum.jpg" alt="" />
-      <img src="image/gallery/kanniya-hot-springs.jpg" alt="" />
-      <img src="image/gallery/mabel beach.jpeg" alt="" />
-      <img src="image/gallery/nilaweli.jpeg" alt="" />
-      <img src="image/gallery/Koneswaram-Hindu-Temple.jpg" alt="" />
-      <img src="image/gallery/fort febric.jpeg" alt="" />
-      <img src="image/gallery/amber swing.jpg" alt="" />
-      <img src="image/gallery/ambuluwawa1.jpg" alt="" />
-      <img src="image/gallery/ambuluwawa2.jpg" alt="" />
-      <img src="image/gallery/ambuluwawa3.jpeg" alt="" />
-      <img src="image/gallery/lanka thilake.jpg" alt="" />
-      <img src="image/gallery/battclo beach.jpeg" alt="" />
-      <img src="image/gallery/batticlo dutch fort.jpg" alt="" />
-      <img src="image/gallery/batticlo gate.jpg" alt="" />
-      <img src="image/gallery/batticlo ligh house.jpg" alt="" />
-      <img src="image/gallery/kallady beC.jpg" alt="" />
       <img src="image/gallery/gal143.jpeg" alt="" />
       <img src="image/gallery/gal144.jpeg" alt="" />
       <img src="image/gallery/gal145.jpeg" alt="" />
@@ -246,6 +200,47 @@
       <img src="image/gallery/gal164.jpeg" alt="" />
       <img src="image/gallery/gal165.jpeg" alt="" />
       <img src="image/gallery/gal166.jpeg" alt="" />
+      <img src="image/gallery/gal167.jpeg" alt="" />
+      <img src="image/gallery/gal168.jpeg" alt="" />
+      <img src="image/gallery/gal169.jpeg" alt="" />
+      <img src="image/gallery/gal170.jpeg" alt="" />
+      <img src="image/gallery/gal171.jpeg" alt="" />
+      <img src="image/gallery/gal172.jpeg" alt="" />
+      <img src="image/gallery/gal173.jpeg" alt="" />
+      <img src="image/gallery/gal174.jpeg" alt="" />
+      <img src="image/gallery/gal175.jpeg" alt="" />
+      <img src="image/gallery/gal176.jpeg" alt="" />
+      <img src="image/gallery/gal177.jpeg" alt="" />
+      <img src="image/gallery/gal178.jpeg" alt="" />
+      <img src="image/gallery/gal179.jpeg" alt="" />
+      <img src="image/gallery/gal180.jpeg" alt="" />
+      <img src="image/gallery/gal181.jpeg" alt="" />
+      <img src="image/gallery/gal183.jpeg" alt="" />
+      <img src="image/gallery/gal189.jpeg" alt="" />
+      <img src="image/gallery/gal192.jpeg" alt="" />
+      <img src="image/gallery/gal193.jpeg" alt="" />
+      <img src="image/gallery/gal194.jpeg" alt="" />
+      <img src="image/gallery/gal195.jpeg" alt="" />
+      <img src="image/gallery/gal196.jpeg" alt="" />
+      <img src="image/gallery/gal197.jpeg" alt="" />
+      <img src="image/gallery/gal198.jpeg" alt="" />
+      <img src="image/gallery/gal199.jpeg" alt="" />
+      <img src="image/gallery/gal200.jpeg" alt="" />
+      <img src="image/gallery/gal201.jpeg" alt="" />
+      <img src="image/gallery/gal202.jpeg" alt="" />
+      <img src="image/gallery/gal203.jpeg" alt="" />
+      <img src="image/gallery/gal204.jpeg" alt="" />
+      <img src="image/gallery/gal205.jpeg" alt="" />
+
+       <img src="image/gallery/nellikulama.jpeg" alt="" />
+      <img src="image/gallery/ranawana.jpeg" alt="" />
+      <img src="image/gallery/nadadeepa.jpeg" alt="" />
+      <img src="image/gallery/point pedro.jpeg" alt="" />
+      <img src="image/gallery/Moon-Plains-Sandathenna.jpg" alt="" />
+      <img src="image/gallery/keeramale.jpeg" alt="" />
+      
+
+      
     </div>
 
     <!--gallery end-->

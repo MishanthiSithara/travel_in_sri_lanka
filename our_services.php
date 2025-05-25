@@ -79,6 +79,12 @@
         <img src="./image/galle_hotel1.jpeg" alt="" />
         <img src="./image/trinco_hotel1.jpeg" alt="" />
         <img src="./image/gampola_hotel1.jpeg" alt="" />
+        <img src="./image/gal182.jpeg" alt=""/>
+        <img src="./image/gal184.jpeg" alt=""/>
+        <img src="./image/gal185.jpeg" alt=""/>
+        <img src="./image/gal186.jpeg" alt=""/>
+        <img src="./image/gal188.jpeg" alt=""/>
+        <img src="./image/gal190.jpeg" alt=""/>
       </div>
 
       <div class="our_service">

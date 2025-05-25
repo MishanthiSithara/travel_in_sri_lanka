@@ -423,7 +423,7 @@
         <h3>nallur hindu kovil</h3>
       </div>
       <div class="destination-card">
-        <img src="./image/gallery/fort hammenhil.jpeg" alt="" />
+        <img src="./image/fort hammenhil.jpeg" alt="" />
         <h3>fort hammenhiel</h3>
       </div>
 

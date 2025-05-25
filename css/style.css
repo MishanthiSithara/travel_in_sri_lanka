@@ -626,6 +626,8 @@ margin-top: 2rem;
 
 
  .our_service h3{
+    text-align: center;
+    margin: 2rem 0;
 font-size: 6rem;
 }
 
@@ -662,7 +664,7 @@ h3 {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 2rem;
-    padding: 2rem;
+   padding: 2rem 2rem 0 2rem; /* top, right, bottom, left */
 }
 .gallery img {
     width: 100%;
@@ -672,7 +674,7 @@ h3 {
     box-shadow: 3px 7px 7px 4px var(--light-black);
     transition: transform 0.3s;
     cursor: pointer;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.1rem;
     margin-top: 0.5rem;
 }
 .gallery img:hover {
