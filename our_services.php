@@ -31,10 +31,9 @@
         <a href="book.php">book</a>
         <a href="gallery.php">gallery</a>
         <a href="destination.php">destination</a>
-        <a href="./feedback/feedback.php">feedback</a>
-
-        <a href="./user/login.php">login</a>
-        <a href="./user/register.php">register</a>
+        <a href="feedback.php">feedback</a>
+        <a href="./login.php">login</a>
+        
       </nav>
 
       <div id="menu-btn" class="fas fa-bars"></div>

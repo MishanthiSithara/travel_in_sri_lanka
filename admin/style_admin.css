@@ -112,3 +112,93 @@ body {
   font-weight: bold;
   color: var(--main-color);
 }
+
+.user-icon {
+  font-size: 32px;
+  color: var(--black);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+  .cards {
+    flex-direction: column;
+  }
+
+  .topbar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    flex-direction: column;
+  }
+
+  .dashboard-container {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .sidebar nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+  }
+
+  .sidebar nav ul li {
+    margin: 10px 15px;
+  }
+
+  .main-content {
+    padding: 10px;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .user-icon {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 480px) {
+  .sidebar h2 {
+    font-size: 20px;
+  }
+
+  .topbar h1 {
+    font-size: 24px;
+  }
+
+  .card h3 {
+    font-size: 18px;
+  }
+
+  .card p {
+    font-size: 20px;
+  }
+}

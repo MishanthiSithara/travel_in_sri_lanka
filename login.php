@@ -19,7 +19,7 @@
           required
         />
         <button type="submit">Login</button>
-        <p>Don't have an account? <a href="./register.php">Sign up</a></p>
+        <p>Don't have an account? <a href="./register.php">Register</a></p>
 
          <div class="back-home">
          <a href="home.php">← Back to Home</a>

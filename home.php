@@ -34,7 +34,7 @@
         <a href="destination.php">destination</a>
         <a href="feedback.php">feedback</a>
         <a href="./login.php">login</a>
-        <a href="./register.php">register</a>
+        <a href="./admin/dashboard.php">Admin</a>       
       </nav>
 
       <div id="menu-btn" class="fas fa-bars"></div>
@@ -152,6 +152,7 @@
           <div class="content">
             <h3>NuwaraEliya</h3>
             <p>This package offers the opportunity to visit more locations!</p>
+            <p class="price">$450</p>
             <a href="book.php" class="btn">book now</a>
           </div>
         </div>
@@ -163,6 +164,7 @@
           <div class="content">
             <h3>kandy</h3>
             <p>This package offers the opportunity to visit more locations!</p>
+            <p class="price">$250</p>
             <a href="book.php" class="btn">book now</a>
           </div>
         </div>
@@ -174,6 +176,7 @@
           <div class="content">
             <h3>Badulla</h3>
             <p>This package offers the opportunity to visit more locations!</p>
+            <p class="price">$450</p>
             <a href="book.php" class="btn">book now</a>
           </div>
         </div>
@@ -185,6 +188,7 @@
           <div class="content">
             <h3>sigiriya</h3>
             <p>This package offers the opportunity to visit more locations!</p>
+            <p class="price">$450</p>
             <a href="book.php" class="btn">book now</a>
           </div>
         </div>

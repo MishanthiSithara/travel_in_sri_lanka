@@ -269,6 +269,14 @@ gap: 2rem;
     padding: 1rem 0;
 }
 
+ .home-packages .box-container .box .content .price {
+    font-size: 1.5rem;
+    color: var(--black); 
+    font-weight: bold;
+    margin: 0.3rem 0;
+}
+
+
 .home-packages .load-more{
     text-align: center;
     margin-top: 2rem;
@@ -556,10 +564,13 @@ display: block;
         padding: 1rem 0;
     }
     
-    .packages .load-more{
-        text-align: center;
-        margin-top: 2rem;
-    }
+    .packages .box-container .box .content .price {
+    font-size: 1.5rem;
+    color: var(--black); 
+    font-weight: bold;
+    margin: 0.3rem 0;
+}
+
 /*package places ends*/
     
 
@@ -658,7 +669,7 @@ font-size: 6rem;
 h3 {
     text-align: center;
     font-size: 6rem;
-    margin: 1.25rem 0;
+    margin: 1.20rem 0;
 }
 .gallery {
     display: grid;
@@ -675,7 +686,7 @@ h3 {
     transition: transform 0.3s;
     cursor: pointer;
     margin-bottom: 0.1rem;
-    margin-top: 0.5rem;
+    margin-top: 0rem;
 }
 .gallery img:hover {
     transform: scale(1.08);

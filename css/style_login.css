@@ -43,11 +43,11 @@ body {
  background-color:  var(--white);
   padding: 2rem;
   border-radius: 1rem;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  box-shadow:0 .5rem 3rem rgba(0,0,0,.3);
   width: 100%;
   max-width: 400px;
   background: transparent;
-   border: 1px solid rgb(178, 204, 235);
+   border: 1px solid rgb(14, 70, 20);
 
 }
 
@@ -98,4 +98,81 @@ form a:hover {
   text-decoration: underline;
 }
 
+.back-home {
+  text-align: center;
+  margin-top: 1rem;
+}
 
+.back-home a {
+  color: var(--main-color);
+  font-size: 15px;
+}
+
+.back-home a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .form-container {
+    width: 90%;
+    padding: 1.5rem;
+  }
+
+  form input,
+  form button {
+    padding: 0.75rem;
+    font-size: 0.95rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  form p {
+    font-size: 0.95rem;
+  }
+
+  .back-home a {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    padding: 1rem;
+    align-items: flex-start;
+    padding-top: 3rem;
+    height: auto;
+  }
+
+  .form-container {
+    margin-top: 2rem;
+    padding: 1rem;
+    border-radius: 0.75rem;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+  }
+
+  form input,
+  form button {
+    padding: 0.65rem;
+    font-size: 0.9rem;
+  }
+
+  .back-home a {
+    font-size: 13px;
+  }
+}

@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Admin Dashboard - Travel Agency</title>
   <link rel="stylesheet" href="./style_admin.css" />
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
 </head>
 <body>
   <div class="dashboard-container">
@@ -17,7 +20,8 @@
           <li><a href="#">Packages</a></li>
           <li><a href="#">Gallery</a></li>
           <li><a href="#">Feedback</a></li>
-          <li><a href="#">Logout</a></li>
+           <li><a href="../home.php">Home</a></li>
+          <li><a href="../home.php">Logout</a></li>
           
         </ul>
       </nav>
@@ -27,9 +31,9 @@
       <header class="topbar">
         <h1>Dashboard</h1>
         <div class="user">
-          <span>Admin</span>
-          <img src="/image/user.png" alt="user icon" />
-        </div>
+  <span>Admin</span>
+  <i class="fas fa-user-circle user-icon"></i>
+           </div>
       </header>
 
       <section class="cards">
@@ -39,7 +43,7 @@
         </div>
         <div class="card">
           <h3>Packages</h3>
-          <p>15</p>
+          <p>12</p>
         </div>
         <div class="card">
           <h3>Revenue</h3>

@@ -31,10 +31,8 @@
         <a href="book.php">book</a>
         <a href="gallery.php">gallery</a>
         <a href="destination.php">destination</a>
-        <a href="./feedback/feedback.php">feedback</a>
-
-        <a href="./user/login.php">login</a>
-        <a href="./user/register.php">register</a>
+        <a href="feedback.php">feedback</a>
+        <a href="./login.php">login</a>
       </nav>
 
       <div id="menu-btn" class="fas fa-bars"></div>
@@ -59,6 +57,7 @@
           <div class="content">
             <h3>NuwaraEliya</h3>
             <p>This package offers the opportunity to visit more locations!</p>
+            <p class="price">$450</p>
             <a href="book.php" class="btn">book now</a>
 
           </div>
@@ -71,6 +70,7 @@
           <div class="content">
             <h3>kandy</h3>
             <p>This package offers the opportunity to visit more locations!</p>
+            <p class="price">$250</p>
             <a href="book.php" class="btn">book now</a>
           </div>
         </div>
@@ -82,6 +82,7 @@
           <div class="content">
             <h3>badulla</h3>
             <p>This package offers the opportunity to visit more locations!</p>
+            <p class="price">$400</p>
             <a href="book.php" class="btn">book now</a>
           </div>
         </div>
@@ -93,6 +94,7 @@
           <div class="content">
             <h3>sigiriya</h3>
             <p>This package offers the opportunity to visit more locations!</p>
+            <p class="price">$400</p>
             <a href="book.php" class="btn">book now</a>
           </div>
         </div>
@@ -104,6 +106,7 @@
           <div class="content">
             <h3>Anuradhapura</h3>
             <p>This package offers the opportunity to visit more locations!</p>
+            <p class="price">$450</p>
             <a href="book.php" class="btn">book now</a>
           </div>
         </div>
@@ -115,6 +118,7 @@
           <div class="content">
             <h3>polonnaruwa</h3>
             <p>This package offers the opportunity to visit more locations!</p>
+            <p class="price">$400</p>
             <a href="book.php" class="btn">book now</a>
           </div>
         </div>
@@ -126,6 +130,7 @@
           <div class="content">
             <h3>colombo</h3>
             <p>This package offers the opportunity to visit more locations!</p>
+            <p class="price">$400</p>
             <a href="book.php" class="btn">book now</a>
           </div>
         </div>
@@ -137,6 +142,7 @@
           <div class="content">
             <h3>galle</h3>
             <p>This package offers the opportunity to visit more locations!</p>
+            <p class="price">$450</p>
             <a href="book.php" class="btn">book now</a>
           </div>
         </div>
@@ -148,6 +154,7 @@
           <div class="content">
             <h3>jaffna</h3>
             <p>This package offers the opportunity to visit more locations!</p>
+            <p class="price">$400</p>
             <a href="book.php" class="btn">book now</a>
           </div>
         </div>
@@ -159,6 +166,7 @@
           <div class="content">
             <h3>trincomali</h3>
             <p>This package offers the opportunity to visit more locations!</p>
+            <p class="price">$450</p>
             <a href="book.php" class="btn">book now</a>
           </div>
         </div>
@@ -170,6 +178,7 @@
           <div class="content">
             <h3>gampola</h3>
             <p>This package offers the opportunity to visit more locations!</p>
+            <p class="price">$350</p>
             <a href="book.php" class="btn">book now</a>
           </div>
         </div>
@@ -181,6 +190,7 @@
           <div class="content">
             <h3>batticaloa</h3>
             <p>This package offers the opportunity to visit more locations!</p>
+            <p class="price">$350</p>
             <a href="book.php" class="btn">book now</a>
           </div>
         </div>

@@ -26,7 +26,7 @@
           required
         />
         <button type="submit">Register</button>
-        <p>Already have an account? <a href="./login.php">sign in</a></p>
+        <p>Already have an account? <a href="./login.php">Login</a></p>
 
 
            <div class="back-home">

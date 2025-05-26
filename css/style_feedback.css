@@ -26,7 +26,7 @@
 
 
 body {
- background-image: url('../image/gallery/gal200.jpeg');
+ background-image: url('../image/registr.jpeg');
   object-fit: cover;
   display: flex;
   justify-content: center;
@@ -48,7 +48,7 @@ body {
   max-width: 400px;
   box-shadow:0 .5rem 3rem rgba(0,0,0,.3);
    background: transparent;
-  border: 1px solid rgb(17, 105, 23);
+  border: 1px solid rgb(31, 21, 140);
 }
 
 .feedback-form h2 {
@@ -89,7 +89,7 @@ form a:hover {
   padding: 12px;
   border: none;
   background-color: var(--black);
-  color: white;
+  color: var(--white);
   font-size: 1.1rem;
   border-radius: 6px;
   cursor: pointer;
@@ -98,5 +98,82 @@ form a:hover {
 
 .feedback-form button:hover {
   background-color: var(--main-color);
+}
+
+.back-home {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.back-home a {
+  color: var(--main-color);
+  font-size: 15px;
+}
+
+.back-home a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+/* Responsive Styles */
+
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+    padding: 1.5rem;
+    border-radius: 0.75rem;
+  }
+
+  .feedback-form h2 {
+    font-size: 1.5rem;
+  }
+
+  .feedback-form input,
+  .feedback-form textarea {
+    padding: 10px;
+    font-size: 0.95rem;
+  }
+
+  .feedback-form button {
+    font-size: 1rem;
+    padding: 10px;
+  }
+
+  .back-home a {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .feedback-form h2 {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .feedback-form input,
+  .feedback-form textarea {
+    font-size: 0.9rem;
+    padding: 8px;
+  }
+
+  .feedback-form button {
+    font-size: 0.95rem;
+    padding: 10px;
+  }
+
+  .back-home {
+    margin-top: 0.8rem;
+  }
+
+  .back-home a {
+    font-size: 13px;
+  }
 }
 
