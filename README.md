@@ -1,113 +1,141 @@
-Sure! Here's a detailed and professional `README.md` file for a **"Travel in Sri Lanka - Web-Based Tour Booking System"** built using **HTML, CSS, JavaScript, and PHP**:
+travel_in_sri_lanka
+
+Here's a sample `README.md` file tailored for your **Travel in Sri Lanka Web-Based Tour Booking System** using HTML, CSS, JavaScript, PHP, and MySQL:
 
 ---
 
-```markdown
-# 🇱🇰 Travel in Sri Lanka - Web-Based Tour Booking System
+````markdown
+# 🌴 Travel in Sri Lanka - Web-Based Tour Booking System
 
-## 📝 Project Overview
+This is a complete web-based tour booking system for traveling in Sri Lanka. It allows users to browse tour packages, register and log in, make bookings, and view a gallery of tour destinations. An admin panel is provided to manage bookings and packages. The system is built using **HTML**, **CSS**, **JavaScript**, **PHP**, and **MySQL**.
 
-**Travel in Sri Lanka** is a dynamic and user-friendly web-based **tour booking system** developed using **HTML, CSS, JavaScript, and PHP**. This platform allows users to explore popular tourist destinations, view detailed tour packages, and make bookings online. Designed for both educational and small business use, the system demonstrates how front-end design and back-end logic can be integrated into a cohesive travel booking solution.
+## 🛠️ Tech Stack
 
-## 🌟 Key Features
+- **Frontend**: HTML5, CSS3, JavaScript
+- **Backend**: PHP
+- **Database**: MySQL
+- **Server**: Apache (via XAMPP)
 
-- 🏖️ Display of top travel destinations in Sri Lanka
-- 🧳 Tour package listings with descriptions, pricing, and duration
-- 📝 Tour booking form with PHP backend processing
-- 📩 Contact form with server-side validation
-- 📅 Option to select travel dates
-- 📱 Fully responsive design for mobile and desktop
-- 🔒 Simple form validation and security practices
+---
 
-## 📁 Folder Structure
+## 🔐 Features
 
+### User Side
+- User registration and login
+- View available tour packages
+- Book tours online
+- Browse a photo gallery of destinations
+- Contact/feedback form
+- Responsive style
+
+### Admin Side
+- Admin login/logout
+- Manage (Add/Edit/Delete) tour packages
+- Manage bookings
+- View registered users
+- Delete users or bookings
+
+---
+
+## 🧰 Setup Instructions
+
+1. **Clone or Download the Repository**
+
+   ```bash
+   git clone https://github.com/yourusername/sri-lanka-tour-booking.git
+````
+
+2. **Set Up Your Local Server**
+
+   * Use XAMPP.
+   * Place the project folder inside the `htdocs` directory (for XAMPP).
+
+3. **Create the Database**
+
+   * Open **phpMyAdmin**
+   * Create a database named: `tour_booking`
+   * Import the `tour_booking.sql` file from the `database/` folder.
+
+4. **Configure Database Connection**
+
+   * Open `connection.php` or similar config file.
+   * Update the database credentials:
+
+     ```php
+     $conn = mysqli_connect("localhost", "root", "", "tour_booking");
+     ```
+
+5. **Run the Project**
+
+   * Start Apache and MySQL via XAMPP.
+   * Go to `http://localhost/sri-lanka-tour-booking/` in your browser.
+
+---
+
+## 📁 Project Structure
+
+```text
+sri-lanka-tour-booking/
+├── admin/                  # Admin dashboard files
+├── assets/                 # CSS, JS, Images
+├── includes/               # Header, footer, and DB connection
+├── user/                   # User dashboard files
+├── gallery/                # Tour image gallery
+├── login.php
+├── logout.php
+├── register.php
+├── index.php
+├── contact.php
+├── database/
+│   └── tour_booking.sql    # Database export
+└── README.md
 ```
 
-travel-sri-lanka-booking/
-├── index.html            # Homepage with tour highlights
-├── tours.html            # List of available tour packages
-├── booking.html          # Booking form page
-├── contact.html          # Contact form for inquiries
-├── style.css             # CSS file for styling and layout
-├── script.js             # JavaScript for interactivity
-├── booking.php           # Handles tour booking form submissions
-├── contact.php           # Processes contact form submissions
-├── /assets               # Folder for images and other static assets
-└── README.md             # Project documentation
+---
 
-````
+## 🔒 Admin Login (Sample)
 
-## ⚙️ Technologies Used
+* **Username:** `admin`
+* **Password:** `admin123`
 
-- **HTML5** – Structuring content
-- **CSS3** – Styling and responsive design
-- **JavaScript (ES6)** – Client-side interactivity
-- **PHP 7+** – Backend form handling and basic logic
-- *(Optional: Bootstrap 4/5 for UI components and responsiveness)*
+> You can change the default admin credentials in the database.
 
-## 🚀 Installation & Setup
+---
 
-### 📌 Requirements
+## 📸 Gallery Integration
 
-- A local web server with PHP support (e.g., [XAMPP](https://www.apachefriends.org/), WAMP, or MAMP)
-- Modern web browser (Chrome, Firefox, Edge)
+The gallery page dynamically fetches tour destination images from the database. You can update images using the admin panel or directly in the `images/` folder and the database.
 
-### 🧰 Steps to Run Locally
+---
 
-1. **Clone or download** the repository:
-   ```bash
-   git clone https://github.com/your-username/travel-sri-lanka-booking.git
-````
+## 📌 Future Improvements
 
-2. **Move the folder** to your local server directory:
+* Payment gateway integration (e.g., Stripe or PayPal)
+* Email confirmation for bookings
+* Multi-language support
+* Responsive design improvements
 
-   * XAMPP: `C:\xampp\htdocs\travel-sri-lanka-booking`
-   * WAMP: `C:\wamp64\www\travel-sri-lanka-booking`
-
-3. **Start Apache** from the XAMPP/WAMP control panel.
-
-4. **Open your browser** and go to:
-
-   ```
-   http://localhost/travel-sri-lanka-booking/
-   ```
-
-## 🔧 How It Works
-
-* Users visit the homepage to browse top destinations.
-* They can navigate to the **Tours** page to view available tour packages.
-* On the **Booking** page, users fill out a form to reserve a tour. The data is sent to `booking.php`, which simulates backend processing.
-* The **Contact** form allows users to send travel inquiries via `contact.php`.
-
-## 📸 Screenshots
-
-> *(Include screenshots of homepage, tour list, booking form, and contact page here)*
-
-## 📌 Future Enhancements (Optional)
-
-* 🧑‍💼 Admin panel for managing tours and bookings
-* 🗃️ Database integration with MySQL for storing bookings
-* 🧾 Booking confirmation email via PHP mail
-* 🔐 User login and registration system
-* 🌐 Multi-language support
-
-## 👨‍💻 Author
-
-* **Name:** \[Your Name]
-* **GitHub:** [github.com/your-username](https://github.com/your-username)
-* **Email:** \[[your.email@example.com](mailto:your.email@example.com)]
+---
 
 ## 📄 License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is for educational purposes. Feel free to customize and expand it as needed.
 
 ---
 
-🚗 *Explore Sri Lanka. Book your next adventure. All from your browser.*
+## 🤝 Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you'd like to change.
+
+---
+
+## ✉️ Contact
+
+For questions or support, please reach out to \[[your.email@example.com](mailto:your.email@example.com)].
 
 ```
 
 ---
 
-Would you like a **custom version** with real data structures, sample booking forms, or even a basic PHP-MySQL integration? I can help build that as well.
+Let me know if you want the README customized with your name, GitHub link, screenshots, or any specific feature descriptions.
 ```
