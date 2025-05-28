@@ -22,7 +22,7 @@
 body {
   display: flex;
   height: 100vh;
-  background-color: #69059b;
+  background-color: var(--main-color);
 }
 
 .dashboard-container {

@@ -108,6 +108,13 @@ margin-left: 2rem;
 color:var(--black);
 }
 
+.header .navbar a i {
+  margin-right: 0.5rem;
+}
+
+
+
+
 .header .navbar a:hover{
 color:var(--main-color);
 }
@@ -771,7 +778,7 @@ padding: 3rem 5%;
 @media (max-width:991px){
 
     html{
-        font-size: 55%;
+        font-size: 54%;
     }
 
     section{

@@ -32,8 +32,9 @@
         <a href="gallery.php">gallery</a>
         <a href="destination.php">destination</a>
         <a href="feedback.php">feedback</a>
-        <a href="./login.php">login</a>
-        
+       <a href="./login.php"><i class="fas fa-user"></i></a>
+        <a href="./admin/dashboard.php"><i class="fas fa-user-shield"></i></a>
+        <a href="./cart.php"><i class="fas fa-shopping-cart"></i></a>  
       </nav>
 
       <div id="menu-btn" class="fas fa-bars"></div>
