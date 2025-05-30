@@ -9,9 +9,10 @@
   <body>
     <div class="form-container">
       <h2>Register</h2>
-      <form action="#" method="POST">
-        <input type="text" name="id" placeholder="Your Id" required />
-        <input type="text" name="name" placeholder="Full Name" required />
+
+
+      <form action="./handlers/userRegister.php" method="POST">
+        <input type="text" name="full_name" placeholder="Full Name" required />
         <input type="email" name="email" placeholder="Email" required />
         <input
           type="password"
@@ -34,6 +35,8 @@
           </div>
 
       </form>
+
+
     </div>
   </body>
 </html>
