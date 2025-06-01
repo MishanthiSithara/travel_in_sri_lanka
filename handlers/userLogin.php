@@ -20,9 +20,9 @@ if (password_verify($password, $hashPassword)) {
    $_SESSION['role'] = $user['role'];
 
    if ($_SESSION['role'] == 'admin') {
-    header("location:../admin/dashboard.php");
+    header("location: ../admin/dashboard.php");
    } else if($_SESSION['role']== "user") {
-    header("location:../home.php");
+    header("location: ../home.php");
    }
 
 }  else {

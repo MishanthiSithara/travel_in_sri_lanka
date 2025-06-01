@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -33,13 +37,16 @@
         <a href="gallery.php">gallery</a>
         <a href="destination.php">destination</a>
         <a href="feedback.php">feedback</a>
-        <a href="./login.php"><i class="fas fa-user"></i></a>
-        <a href="./admin/dashboard.php"><i class="fas fa-user-shield"></i></a>
-        <a href="./cart.php"><i class="fas fa-shopping-cart"></i></a> 
         
-        <?php
+        
+        <?php if(isset($_SESSION['uId'])){ ?>
+          <a href="./logout.php">logout</a>
+          <?php }else { ?>
+       <a href="./login.php"><i class="fas fa-user"></i></a>
+        <a href="./admin/dashboard.php"><i class="fas fa-user-shield"></i></a>
+        <?php } ?>
 
-        ?>
+      <a href="./cart.php"><i class="fas fa-shopping-cart"></i></a> 
 
       </nav>
 

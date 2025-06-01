@@ -1,11 +1,18 @@
 <?php
 session_start();
 
-if ($_SESSION["role"] == 'user'){
-  header("location:../home.php");
+if (!isset($_SESSION["role"])) {
+    // Redirect to login page or deny access
+    header("Location: ../login.php");
+    exit();
 }
 
+if ($_SESSION["role"] == 'user') {
+    header("Location: ../home.php");
+    exit();
+}
 ?>
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -30,7 +37,7 @@ if ($_SESSION["role"] == 'user'){
           <li><a href="#">Gallery</a></li>
           <li><a href="#">Feedback</a></li>
            <li><a href="../home.php">Home</a></li>
-          <li><a href="../home.php">Logout</a></li>
+          <li><a href="../logout.php">Logout</a></li>
           
         </ul>
       </nav>
