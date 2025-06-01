@@ -10,7 +10,7 @@
 
     <div class="form-container">
       <h2>Login</h2>
-      <form action="#" method="POST">
+      <form action="./handlers/userLogin.php" method="POST">
         <input type="email" name="email" placeholder="Email" required />
         <input
           type="password"
