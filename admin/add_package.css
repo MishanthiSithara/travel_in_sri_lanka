@@ -1,0 +1,109 @@
+:root{
+    --main-color: #ad43e1;
+    --black: #222;
+    --white: #fff;
+    --light-black: #777;
+    --light-white: #fff9;
+    --dark-bg: rbga(0,0,0,.1);
+    --light-bg: #eee;
+    --border:.1rem solid var(--black);
+    --box-shadow:0 .5rem 3rem rgba(0,0,0,.3);
+}
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:  sans-serif;
+}
+
+
+body {
+  background-color: var(--black);
+}
+
+.container {
+  width: 500px;
+  margin: 50px auto;
+  background: var(--main-color);
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 0.5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 1.6rem;
+  color: var(--black);
+  font-size: 1.8rem;
+}
+
+label {
+  display: block;
+  margin: 15px 0 5px;
+  font-weight: 600;
+}
+
+input[type="text"],
+input[type="number"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.buttons {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.submit-btn {
+  background-color: var(--black);
+  color: white;
+}
+
+.cancel-btn {
+  background-color: var(--black);
+  color: white;
+}
+
+button:hover {
+    color: var(--main-color);
+  opacity: 0.9;
+}
+
+
+
+
+
+
+
+/* Responsive layout */
+@media (max-width: 600px) {
+  .container {
+    width: 100%;
+    padding: 20px;
+  }
+
+  button {
+    flex: 1 1 100%;
+  }
+}

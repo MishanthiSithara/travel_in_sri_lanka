@@ -33,7 +33,7 @@ if ($_SESSION["role"] == 'user') {
         <ul>
           <li><a href="#">Dashboard</a></li>
           <li><a href="#">Manage Bookings</a></li>
-          <li><a href="#">Packages</a></li>
+          <li><a href="../admin/addPackages.php">Packages</a></li>
           <li><a href="#">Gallery</a></li>
           <li><a href="#">Feedback</a></li>
            <li><a href="../home.php">Home</a></li>
