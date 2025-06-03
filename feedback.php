@@ -8,7 +8,7 @@
 </head>
 <body>
   <div class="container">
-    <form class="feedback-form">
+      <form class="feedback-form" action="handlers/submit_feedback.php" method="POST">
       <h2>Send Us Your Feedback</h2>
       
       <input type="text" name="name" placeholder="Your Name" required />

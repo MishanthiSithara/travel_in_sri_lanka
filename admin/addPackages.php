@@ -25,10 +25,12 @@
       <input type="text" id="location" name="location" required>
 
       <div class="buttons">
-        <button type="submit" class="submit-btn">Add Package</button>
-        <button type="button" class="cancel-btn" onclick="window.location.href='admin_dashboard.php';">Cancel</button>
+        <button type="submit" name="pkgSubmit" class="submit-btn">Add Package</button>
+        <a href="../admin/dashboard.php" class="cancel-btn">Cancel</a>
       </div>
     </form>
   </div>
 </body>
 </html>
+
+

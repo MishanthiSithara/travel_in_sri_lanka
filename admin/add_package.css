@@ -80,9 +80,17 @@ button {
   color: white;
 }
 
-.cancel-btn {
+
+.buttons .cancel-btn  {
   background-color: var(--black);
   color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  display: inline-block;
+  text-align: center;
+  transition: opacity 0.3s ease;
 }
 
 button:hover {
@@ -90,6 +98,10 @@ button:hover {
   opacity: 0.9;
 }
 
+.cancel-btn:hover {
+  color: var(--main-color);
+  opacity: 0.9;
+}
 
 
 
