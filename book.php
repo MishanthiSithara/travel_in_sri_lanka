@@ -24,6 +24,12 @@ session_start();
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
+
+<?php if (isset($_SESSION['message'])): ?>
+  <p style="color: green; text-align: center;"><?= $_SESSION['message']; unset($_SESSION['message']); ?></p>
+<?php endif; ?>
+
+
     <!--header section starts-->
     <?php
        include_once "./components/nav.php"
@@ -43,7 +49,7 @@ session_start();
     <section class="booking">
       <h1 class="heading-title">book your trip!</h1>
 
-      <form action="book.php" method="post" class="book-form">
+      <form action="./handlers/submit_booking.php" method="post" class="book-form">
         <div class="flex">
           <div class="inputBox">
             <span>name :</span>
