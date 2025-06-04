@@ -1,45 +1,24 @@
 <?php
+
 require_once "../config/dbConfig.php";
 
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
+// Get POST data
+$name = $_POST['name'];
+$email = $_POST['email'];
+$feedback = $_POST['feedback'];
 
-    // Since your form only has name, email, and feedback,
-    // you need to map these or modify accordingly.
+// Insert query
+$sql = "INSERT INTO feedback (`name`, `email`, `feedback`)
+        VALUES ('$name', '$email', '$feedback')";
 
-    // For now, assign dummy/fixed user_id, package_id and rating,
-    // You can later replace with real logged-in user info or form inputs
-
-    $user_id = 1;          // Replace with real user ID (from session after login)
-    $package_id = 1; // Change this to a valid ID from the packages table
-    $rating = 5;           // Default rating or could come from a form input
-    $comment = $_POST['feedback'] ?? '';
-
-    // Basic validation
-    if (empty($comment)) {
-        echo "Feedback comment is required.";
-        exit;
-    }
-
-    $sql = "INSERT INTO feedback (user_id, package_id, rating, comment, created_at)
-            VALUES (?, ?, ?, ?, NOW())";
-
-    $stmt = $conn->prepare($sql);
-    if ($stmt === false) {
-        die("Prepare failed: " . $conn->error);
-    }
-
-    $stmt->bind_param("iiis", $user_id, $package_id, $rating, $comment);
-
-    if ($stmt->execute()) {
-        echo "Thank you for your feedback!";
-    } else {
-        echo "Error: " . $stmt->error;
-    }
-
-    $stmt->close();
-    $conn->close();
-
+// Execute the query
+if (mysqli_query($conn, $sql)) {
+    echo "Feedback submitted successfully";
 } else {
-    echo "Invalid request method.";
+    echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 }
+
+// Close connection
+mysqli_close($conn);
 ?>
+

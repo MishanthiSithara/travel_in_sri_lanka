@@ -18,7 +18,7 @@
         <a href="./admin/dashboard.php"><i class="fas fa-user-shield"></i></a>
         <?php } ?>
 
-      <a href="./cart.php"><i class="fas fa-shopping-cart"></i></a> 
+ 
 
       </nav>
 

@@ -32,11 +32,11 @@ if ($_SESSION["role"] == 'user') {
       <nav>
         <ul>
           <li><a href="#">Dashboard</a></li>
-          <li><a href="../admin/manage_booking.php">Manage Bookings</a></li>
+          <li><a href="../admin/booking_manage.php">Manage Bookings</a></li>
           <li><a href="../admin/addPackages.php">Add Packages</a></li>
           <li><a href="../admin/package_image.php">Add Package Image</a></li>
           <li><a href="../admin/gallery_image_add.php">Gallery</a></li>
-          <li><a href="#">Feedback</a></li>
+          <li><a href="../admin/feedback_manage.php">Manage Feedback</a></li>
            <li><a href="../home.php">Home</a></li>
           <li><a href="../logout.php">Logout</a></li>
           
