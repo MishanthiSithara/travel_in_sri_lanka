@@ -52,6 +52,8 @@ if (isset($_GET['edit'])) {
 <body>
 <div class="container">
     <h2> Booking Management</h2>
+    
+
 
     <?php if ($editData): ?>
     <div class="form-section">
@@ -119,5 +121,6 @@ if (isset($_GET['edit'])) {
     </table>
     </div>
 </div>
+<a href="dashboard.php" class="dashboard-btn">← Back to Dashboard</a>
 </body>
 </html>

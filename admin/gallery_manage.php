@@ -106,6 +106,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_FILES["imageFile"])) {
             margin: 5px 0;
         }
         .delete-btn:hover { background: #c82333; }
+    
+
     </style>
 </head>
 <body>

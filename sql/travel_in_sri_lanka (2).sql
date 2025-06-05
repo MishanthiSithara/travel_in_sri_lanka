@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 05, 2025 at 06:12 AM
+-- Generation Time: Jun 05, 2025 at 11:44 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.0.30
 
@@ -29,6 +29,7 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `booking_form` (
   `id` int(11) NOT NULL,
+  `pakage_id` int(255) DEFAULT NULL,
   `name` varchar(100) NOT NULL,
   `email` varchar(100) NOT NULL,
   `phone` varchar(20) DEFAULT NULL,
@@ -44,9 +45,18 @@ CREATE TABLE `booking_form` (
 -- Dumping data for table `booking_form`
 --
 
-INSERT INTO `booking_form` (`id`, `name`, `email`, `phone`, `address`, `location`, `guests`, `arrivals`, `leaving`, `created_at`) VALUES
-(3, 'user', 'user@gmail.com', '2344', 'fdfdg', 'dfgdgh', 5, '2025-06-20', '2025-06-22', '2025-06-04 08:41:28'),
-(4, 'admin', 'admin@gmail.com', '3435', 'fdfdg', 'bbg', 6, '2025-06-19', '2025-06-28', '2025-06-04 09:05:50');
+INSERT INTO `booking_form` (`id`, `pakage_id`, `name`, `email`, `phone`, `address`, `location`, `guests`, `arrivals`, `leaving`, `created_at`) VALUES
+(4, NULL, 'admin', 'admin@gmail.com', '3435', 'fdfdg', 'bbg', 6, '2025-06-19', '2025-06-28', '2025-06-04 09:05:50'),
+(6, NULL, 'Kessie ', 'huxu@mailinator.com', '85', 'Autem ipsa unde rer', 'Qui maiores magni an', 32, '1979-01-16', '1970-03-05', '2025-06-05 03:41:56'),
+(8, NULL, 'August Stein', 'jemygiq@mailinator.com', '77', 'Consequat Ut irure ', 'Corporis voluptates ', 74, '2005-02-16', '1997-11-21', '2025-06-05 04:55:31'),
+(9, NULL, 'Alec Cash', 'cujikec@mailinator.com', '72', 'Et quo fuga Volupta', 'Aliquid elit volupt', 26, '1981-08-16', '1996-06-16', '2025-06-05 04:56:35'),
+(10, NULL, 'Reese Kirkland', 'pakyf@mailinator.com', '57', 'Velit dolor alias oc', 'Consequat Incididun', 66, '1996-12-13', '2022-05-05', '2025-06-05 05:06:11'),
+(11, 0, 'Lucy Poole', 'wyrodib@mailinator.com', '9', 'Nobis maiores quis c', 'Quis culpa et eos a', 53, '1985-06-28', '2011-01-05', '2025-06-05 05:08:51'),
+(12, 0, 'Joel Black', 'vagalusyh@mailinator.com', '4', 'Aut pariatur Except', 'Impedit fugiat fug', 63, '1995-08-03', '1988-12-26', '2025-06-05 05:09:18'),
+(13, 0, 'Cassady Richmond', 'ruve@mailinator.com', '80', 'Similique accusantiu', 'Ex explicabo Et dol', 69, '1987-03-26', '2023-03-05', '2025-06-05 05:10:13'),
+(14, 0, 'Vernon Hayden', 'cuvin@mailinator.com', '96', 'Accusamus nostrud en', 'Harum assumenda aute', 83, '2010-01-27', '1984-02-16', '2025-06-05 05:10:54'),
+(15, 16, 'Todd Copeland', 'tikiwa@mailinator.com', '76', 'Commodo sit qui non ', 'Itaque sit maiores ', 96, '1997-12-18', '2017-07-03', '2025-06-05 05:19:40'),
+(16, 17, 'Jacob Cole', 'zaregocak@mailinator.com', '17', 'Ipsam pariatur Dese', 'Soluta autem dolorum', 94, '1987-04-04', '2003-11-06', '2025-06-05 05:21:57');
 
 -- --------------------------------------------------------
 
@@ -90,6 +100,21 @@ CREATE TABLE `gallery_image` (
   `uploaded_at` timestamp NOT NULL DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
+--
+-- Dumping data for table `gallery_image`
+--
+
+INSERT INTO `gallery_image` (`id`, `image_path`, `uploaded_at`) VALUES
+(4, 'uploads/gallery/gallery_1749114166.jpg', '2025-06-05 05:32:46'),
+(5, 'uploads/gallery/gallery_1749114372.jpeg', '2025-06-05 05:36:12'),
+(9, 'uploads/gallery/gallery_1749115246.jpeg', '2025-06-05 05:50:46'),
+(10, 'uploads/gallery/gallery_1749115262.jpg', '2025-06-05 05:51:02'),
+(11, 'uploads/gallery/gallery_1749115280.jpeg', '2025-06-05 05:51:20'),
+(12, 'uploads/gallery/gallery_1749115300.jpeg', '2025-06-05 05:51:40'),
+(13, 'uploads/gallery/gallery_1749115324.jpg', '2025-06-05 05:52:04'),
+(14, 'uploads/gallery/gallery_1749115826.jpg', '2025-06-05 06:00:26'),
+(15, 'uploads/gallery/gallery_1749115937.jpg', '2025-06-05 06:02:17');
+
 -- --------------------------------------------------------
 
 --
@@ -103,6 +128,7 @@ CREATE TABLE `packages` (
   `price` decimal(10,2) NOT NULL,
   `duration` varchar(100) NOT NULL,
   `location` varchar(255) NOT NULL,
+  `image_path` text DEFAULT NULL,
   `created_at` datetime NOT NULL DEFAULT current_timestamp(),
   `updated_at` datetime NOT NULL DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
@@ -111,28 +137,10 @@ CREATE TABLE `packages` (
 -- Dumping data for table `packages`
 --
 
-INSERT INTO `packages` (`id`, `title`, `description`, `price`, `duration`, `location`, `created_at`, `updated_at`) VALUES
-(2, '', '', 0.00, '', '', '2025-06-03 08:21:08', '2025-06-03 08:21:08'),
-(3, 'kegalle', 'asdjsbjvb', 240.00, '7', 'dfgdgh', '2025-06-03 08:21:08', '2025-06-03 08:21:08'),
-(4, 'sdskf', 'asdjsbjvb', 240.00, '7', 'dfgdgh', '2025-06-03 08:21:41', '2025-06-03 08:21:41'),
-(5, 'dfvsv', 'vdfv', 233.00, 'dsvd', 'dvf', '2025-06-03 08:48:42', '2025-06-03 08:48:42'),
-(6, 'kegalle', 'sc', 123.00, '7', 'csd', '2025-06-03 08:49:54', '2025-06-03 08:49:54'),
-(7, 'ffs', 'ffaf', 123.00, '6', 'efw', '2025-06-03 10:57:27', '2025-06-03 10:57:27'),
-(8, 'ffs', 'ffaf', 566.00, '6', 'efw', '2025-06-03 11:01:25', '2025-06-03 11:01:25'),
-(9, 'Test Package', 'Sample description', 100.00, '3 Days', 'Colombo', '2025-06-03 11:07:34', '2025-06-03 11:07:34'),
-(10, 'fdf', 'dfd', 100.00, '5', 'bbg', '2025-06-03 16:31:44', '2025-06-03 16:31:44');
-
--- --------------------------------------------------------
-
---
--- Table structure for table `package_images`
---
-
-CREATE TABLE `package_images` (
-  `id` int(11) NOT NULL,
-  `package_id` int(11) NOT NULL,
-  `image_path` varchar(255) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+INSERT INTO `packages` (`id`, `title`, `description`, `price`, `duration`, `location`, `image_path`, `created_at`, `updated_at`) VALUES
+(15, 'Non sint saepe moles', 'Nisi sunt unde quam ', 318.00, 'Sapiente iure quos e', 'Commodi sapiente et ', 'ambuluwawa2.jpg', '2025-06-05 13:25:58', '2025-06-05 13:25:58'),
+(16, 'Dicta quia rem aut e', 'Omnis magna commodi ', 847.00, 'Cumque ad laborum di', 'Enim impedit maiore', 'batticlo dutch fort.jpg', '2025-06-05 13:30:47', '2025-06-05 13:30:47'),
+(17, 'Elit labore minima ', 'Possimus est delect', 490.00, 'Mollitia sint nostr', 'Eos reprehenderit ', 'batticlo dutch fort.jpg', '2025-06-05 13:31:49', '2025-06-05 13:31:49');
 
 -- --------------------------------------------------------
 
@@ -186,13 +194,6 @@ ALTER TABLE `packages`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for table `package_images`
---
-ALTER TABLE `package_images`
-  ADD PRIMARY KEY (`id`),
-  ADD KEY `package_id` (`package_id`);
-
---
 -- Indexes for table `users`
 --
 ALTER TABLE `users`
@@ -206,47 +207,31 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `booking_form`
 --
 ALTER TABLE `booking_form`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
 
 --
 -- AUTO_INCREMENT for table `feedback`
 --
 ALTER TABLE `feedback`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
 
 --
 -- AUTO_INCREMENT for table `gallery_image`
 --
 ALTER TABLE `gallery_image`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
 
 --
 -- AUTO_INCREMENT for table `packages`
 --
 ALTER TABLE `packages`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
-
---
--- AUTO_INCREMENT for table `package_images`
---
-ALTER TABLE `package_images`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
 
 --
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
-
---
--- Constraints for dumped tables
---
-
---
--- Constraints for table `package_images`
---
-ALTER TABLE `package_images`
-  ADD CONSTRAINT `package_images_ibfk_1` FOREIGN KEY (`package_id`) REFERENCES `packages` (`id`) ON DELETE CASCADE;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

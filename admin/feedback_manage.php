@@ -95,5 +95,6 @@ if (isset($_GET['edit'])) {
         </tbody>
     </table>
 </div>
+<a href="dashboard.php" class="dashboard-btn">← Back to Dashboard</a>
 </body>
 </html>
