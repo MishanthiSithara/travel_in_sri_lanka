@@ -1,6 +1,8 @@
 <?php
 session_start();
 
+require_once "../config/dbConfig.php";
+
 if (!isset($_SESSION["role"])) {
     // Redirect to login page or deny access
     header("Location: ../login.php");
@@ -35,7 +37,7 @@ if ($_SESSION["role"] == 'user') {
           <li><a href="../admin/booking_manage.php">Manage Bookings</a></li>
           <li><a href="../admin/addPackages.php">Add Packages</a></li>
           <li><a href="../admin/package_image.php">Add Package Image</a></li>
-          <li><a href="../admin/gallery_image_add.php">Gallery</a></li>
+          <li><a href="../admin/gallery_manage.php">Gallery</a></li>
           <li><a href="../admin/feedback_manage.php">Manage Feedback</a></li>
            <li><a href="../home.php">Home</a></li>
           <li><a href="../logout.php">Logout</a></li>
@@ -56,16 +58,45 @@ if ($_SESSION["role"] == 'user') {
       <section class="cards">
         <div class="card">
           <h3>Total Bookings</h3>
-          <p>120</p>
+          <p>
+            <?php
+              $result = mysqli_query($conn, "SELECT COUNT(*) AS total FROM booking_form");
+              if ($result) {
+                $row = mysqli_fetch_assoc($result);
+                echo $row['total'];
+              } else {
+                echo "0";
+              }
+        ?>
+          </p>
         </div>
         <div class="card">
           <h3>Packages</h3>
-          <p>12</p>
+          <p>
+            <?php
+              $result = mysqli_query($conn, "SELECT COUNT(*) AS total FROM packages");
+              if ($result) {
+                $row = mysqli_fetch_assoc($result);
+                echo $row['total'];
+              } else {
+                echo "0";
+              }
+            ?>
+          </p>
         </div>
         <div class="card">
-          <h3>Revenue</h3>
-          <p>$12,000</p>
-        </div>
+          <h3>Gallery Images</h3>
+          <p>
+            <?php
+            $result = mysqli_query($conn, "SELECT COUNT(*) AS total FROM gallery_image");
+              if ($result) {
+                $row = mysqli_fetch_assoc($result);
+                echo $row['total'];
+              } else {
+                echo "0";
+              }
+            ?>
+          </p>
       </section>
     </main>
   </div>

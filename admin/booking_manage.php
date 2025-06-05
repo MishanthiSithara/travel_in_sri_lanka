@@ -5,7 +5,7 @@ require_once "../config/dbConfig.php";
 if (isset($_GET['delete'])) {
     $id = $_GET['delete'];
     mysqli_query($conn, "DELETE FROM booking_form WHERE id = $id");
-    header("Location: admin_booking_manage.php");
+    header("Location: booking_manage.php");
     exit;
 }
 
@@ -27,7 +27,7 @@ if (isset($_POST['update'])) {
                 location='$location', guests='$guests', arrivals='$arrivals', leaving='$leaving' 
               WHERE id=$id";
     mysqli_query($conn, $query);
-    header("Location: admin_booking_manage.php");
+    header("Location:booking_manage.php");
     exit;
 }
 
@@ -56,7 +56,7 @@ if (isset($_GET['edit'])) {
     <?php if ($editData): ?>
     <div class="form-section">
         <h3>Edit Booking (ID: <?= $editData['id'] ?>)</h3>
-        <form method="POST">
+        <form action="booking_manage.php" method="POST">
             <input type="hidden" name="id" value="<?= $editData['id'] ?>">
 
             <label>Name:</label>

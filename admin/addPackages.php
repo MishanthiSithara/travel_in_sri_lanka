@@ -8,7 +8,7 @@
 <body>
   <div class="container">
     <h2>Add New Travel Package</h2>
-    <form action="../handlers/process_package.php" method="POST">
+    <form action="../handlers/process_package.php" method="POST" enctype="multipart/form-data">
       <label for="title">Package Title</label>
       <input type="text" id="title" name="title" required>
 
@@ -23,6 +23,9 @@
 
       <label for="location">Location</label>
       <input type="text" id="location" name="location" required>
+
+      <label for="image_path">Add Image</label>
+      <input type="file" id="image_path" name="image_path" accept="image/*" required>
 
       <div class="buttons">
         <button type="submit" name="pkgSubmit" class="submit-btn">Add Package</button>

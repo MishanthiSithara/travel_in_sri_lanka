@@ -1,5 +1,7 @@
 <?php
 session_start();
+
+require_once "./config/dbConfig.php";
 ?>
 
 <!DOCTYPE html>
@@ -41,7 +43,25 @@ session_start();
 
     <section class="packages">
       <div class="box-container">
+
+      <?php
+        $query = "SELECT * FROM packages";
+        $result = mysqli_query($conn, $query);
+        ?>
+        <?php foreach ($result as $package): ?>
         <div class="box">
+          <div class="images">
+            <img src="images/<?= $package['image_path'] ?>" alt="" />
+          </div>
+          <div class="content">
+            <h3><?= htmlspecialchars($package['title']) ?></h3>
+            <p><?= htmlspecialchars($package['description']) ?></p>
+            <p class="price">$<?= htmlspecialchars($package['price']) ?></p>
+            <a href="book.php?id=<?= htmlspecialchars($package['id']) ?>" class="btn">book now</a>
+          </div>
+        </div>
+        <?php endforeach; ?>
+        <!-- <div class="box">
           <div class="images">
             <img src="image/Gregory-Lake.jpg" alt="" />
           </div>
@@ -52,9 +72,9 @@ session_start();
             <a href="book.php" class="btn">book now</a>
 
           </div>
-        </div>
+        </div> -->
 
-        <div class="box">
+        <!-- <div class="box">
           <div class="images">
             <img src="image/kandy1.jpg" alt="" />
           </div>
@@ -184,7 +204,8 @@ session_start();
             <p class="price">$350</p>
             <a href="book.php" class="btn">book now</a>
           </div>
-        </div>
+        </div> -->
+
       </div>
     
     </section>

@@ -50,6 +50,10 @@ session_start();
       <h1 class="heading-title">book your trip!</h1>
 
       <form action="./handlers/submit_booking.php" method="post" class="book-form">
+        <?php
+          $package_id = isset($_GET['id']) ? htmlspecialchars($_GET['id']) : '';
+        ?>
+        <input type="text" name="package_id" value="<?= $package_id ?>" readonly>
         <div class="flex">
           <div class="inputBox">
             <span>name :</span>
