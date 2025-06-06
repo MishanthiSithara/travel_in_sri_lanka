@@ -42,6 +42,12 @@ if (isset($_GET['edit'])) {
     <link rel="stylesheet" href="../admin/feedbackManage.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
+<style>
+    a.dashboard-btn {
+        background-color:#007bff;
+    }
+</style>
+
 <body>
 <div class="container">
     <h2>Feedback Management</h2>
@@ -95,6 +101,7 @@ if (isset($_GET['edit'])) {
         </tbody>
     </table>
 </div>
+
 <a href="dashboard.php" class="dashboard-btn">← Back to Dashboard</a>
 </body>
 </html>

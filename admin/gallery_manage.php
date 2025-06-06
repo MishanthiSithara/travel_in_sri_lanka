@@ -86,7 +86,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_FILES["imageFile"])) {
         body { font-family: Arial, sans-serif; margin: 30px; }
         .gallery-container { display: flex; flex-wrap: wrap; gap: 16px; }
         .gallery-item { border: 1px solid #ccc; padding: 8px; border-radius: 6px; width: 180px; text-align: center; }
-        .gallery-item img { width: 100%; height: 120px; object-fit: cover; border-radius: 4px; }
+        .gallery-item img { width: 100%; height:80%; object-fit: cover; border-radius: 4px; }
         .gallery-item .date { margin: 8px 0; color: #666; }
         .add-btn, .delete-btn {
             display: inline-block;

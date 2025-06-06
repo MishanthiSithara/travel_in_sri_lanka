@@ -4,7 +4,7 @@ session_start();
 require_once "../config/dbConfig.php";
 
 if (!isset($_SESSION["role"])) {
-    // Redirect to login page or deny access
+    // Redirect to login page
     header("Location: ../login.php");
     exit();
 }

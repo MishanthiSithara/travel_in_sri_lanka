@@ -49,6 +49,11 @@ if (isset($_GET['edit'])) {
     <title>Admin - Manage Bookings</title>
     <link rel="stylesheet" href="../admin/bookingManage.css">
 </head>
+<style>
+    a.dashboard-btn {
+        background-color:#007bff;
+    }
+</style>
 <body>
 <div class="container">
     <h2> Booking Management</h2>

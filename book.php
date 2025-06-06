@@ -53,7 +53,7 @@ session_start();
         <?php
           $package_id = isset($_GET['id']) ? htmlspecialchars($_GET['id']) : '';
         ?>
-        <input type="text" name="package_id" value="<?= $package_id ?>" readonly>
+        <!-- <input type="text" name="package_id" value="<?= $package_id ?>" readonly> -->
         <div class="flex">
           <div class="inputBox">
             <span>name :</span>
